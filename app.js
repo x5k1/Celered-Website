@@ -13,3 +13,6 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 entry.target.classList.toggle('show', entry.isIntersecting);
+
+// the hello world program
+alert("Hello, World!");
