@@ -7,6 +7,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    gap: 50px;
 
 
 }
@@ -16,11 +17,18 @@ a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
   letter-spacing: 0.1em;
   font-weight: 400;
   padding: 10px 30px;
   transition: 0.5s;
+  border: none;
+  margin: 4px;
+  display: inline-block;
+  border-radius: 14px;
+
 }
 a:hover
 {
@@ -34,7 +42,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 95vh;
+    min-height: 40vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
