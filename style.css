@@ -7,38 +7,35 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-image: url(https://legendswillneverdie.files.wordpress.com/2023/05/img_0189.png?w=1000);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:100% 100%;
 
 
 }
 a {
   position: static;
-  background-color: #1a1927;
+  background-color: #000000;
   color: #ffffff;
   text-decoration: none;
   text-transform: lowercase;
   text-align: center;
-  opacity: 0.5;
-  padding: 20px;
-  font-size: 1.2em;
+  opacity: 1.0;
+  padding: 30px;
+  font-size: 1.8em;
   letter-spacing: 0.1em;
-  font-weight: 400;
+  font-weight: 600;
   padding: 10px 30px;
-  transition: 0.7s;
+  transition: 0.5s;
   border: none;
   margin: 6px;
-  border-radius: 12px;
+  border-radius: 15px;
 
 }
 a:hover
 {
+  padding: 10px 30px;
   opacity: 1;
   background: var(--clr);
   letter-spacing: 0.15em;
-  box-shadow: 0 0 12px var(--clr);
+  box-shadow: 0 0 15px var(--clr);
   color: #000000;
 }
 
@@ -46,11 +43,11 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 40vh;
+    min-height: 50vh;
 }
     .hidden {
       opacity: 0;
-      transition: 2s;
+      transition: 1s;
     }
 .show {
     opacity: 1;
